@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "126239678885",
+    "firebase_url": "https://firepdf-4c1d6.firebaseio.com",
+    "project_id": "firepdf-4c1d6",
+    "storage_bucket": "firepdf-4c1d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126239678885:android:d8a0bd69261e15c3",
+        "android_client_info": {
+          "package_name": "com.cloud.firepdf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126239678885-dj45qhp54epuvj875ustl1ld9ces24pf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDV1q04a_XEKfjx3UgARoGr-Mf7GfQMh0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
