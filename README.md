@@ -3,7 +3,29 @@ Store the PDF file into firebase Storage and fetch it and Display PDF using pdfv
 
 
 ![](https://user-images.githubusercontent.com/46309253/62010393-ec9e2800-b187-11e9-83ca-87cb53fd7392.gif)
-![ss](https://user-images.githubusercontent.com/46309253/62010475-dfce0400-b188-11e9-842f-bc0e5cb5bedb.png)
+
+  # Steps 
+- Setup Firebase accounta and add your project.
+- Click on "Storage" from left Menu
+- than add your PDF files 
+- after that in your android project create recycleview or use listview to view data
+- use PDFviewer library and AsyncTask to Display Data 
+
+# IMP link
+- Firebase Setup: (https://firebase.google.com/docs/android/setup)(url)
+- Firebase dependency : (https://firebase.google.com/support/release-notes/android)(url)
+
+# Dependency in project:
+- Firebase Core:	'com.google.firebase:firebase-core:17.0.1'
+- Analytics:	com.google.firebase:firebase-analytics:17.0.1
+- Cloud Messaging:	com.google.firebase:firebase-messaging:19.0.1
+- Cloud Storage:	com.google.firebase:firebase-storage:18.1.1
+- In-App Messaging:	com.google.firebase:firebase-inappmessaging:18.0.2
+- In-App Messaging Display:	com.google.firebase:firebase-inappmessaging-display:18.0.2
+
+## Note: If your Are using the new version of library than you may get Error of AndroidX.
+## Solution:You need migrate project into AndroidX.
+
 
 
 
