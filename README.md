@@ -5,11 +5,12 @@ Store the PDF file into firebase Storage and fetch it and Display PDF using pdfv
 ![](https://user-images.githubusercontent.com/46309253/62010393-ec9e2800-b187-11e9-83ca-87cb53fd7392.gif)
 
   # Steps 
-- Setup Firebase accounta and add your project.
-- Click on "Storage" from left Menu
+- Setup Firebase accounta and add your project.(Must Add google-services.json file )
+- in Firebase Click on "Storage" from left Menu
 - than add your PDF files 
+- click on uploaded file than you will get link of that pdf file just copy and paste into your recyclerview
 - after that in your android project create recycleview or use listview to view data
-- use PDFviewer library and AsyncTask to Display Data 
+- use PDFviewer library and AsyncTask to Load and Display Data 
 
 # IMP link
 - Firebase Setup: (https://firebase.google.com/docs/android/setup)(url)
